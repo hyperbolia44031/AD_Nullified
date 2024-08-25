@@ -351,6 +351,26 @@ window.player = {
       iMCapSet: [],
       laitelaSet: [],
     },
+    thisNullify: {
+      time: DC.D0,
+      realTime: DC.D0,
+      trueTime: 0,
+      maxAM: DC.D0,
+      maxIP: DC.D0,
+      maxEP: DC.D0,
+      maxRM: DC.D0,
+      maxIM: DC.D0,
+      bestNCmin: DC.D0,
+      bestNCminVal: DC.D0
+    },
+    bestNullify: {
+      time: DC.BEMAX,
+      realTime: DC.BEMAX,
+      trueTime: 0,
+      NC: DC.D0,
+      NCmin: DC.D0,
+      bestAM: DC.D0
+    }
   },
   speedrun: {
     isUnlocked: false,
@@ -928,6 +948,12 @@ window.player = {
       id: false,
     }
   },
+  nullify: {
+    isNullifyUnlocked: false,
+    nullificationCores: DC.D0,
+    voidHearts: 0,
+    nullifies: DC.D0,
+  }
 };
 
 export const Player = {

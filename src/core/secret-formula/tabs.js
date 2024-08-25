@@ -497,5 +497,31 @@ export const tabs = [
         hidable: true
       }
     ]
+  },
+  {
+    key: "nullify",
+    name: "Nullify",
+    UIClass: "o-tab-btn--nullify",
+    condition: () => true,
+    id: 11,
+    hidable: true,
+    subtabs: [
+      {
+        key: "upgrades",
+        name: "Nullification Upgrades",
+        symbol: "<i class='fas fa-arrow-up'></i>",
+        component: "NullifyUpgradesTab",
+        id: 0,
+        hidable: true
+      },
+      {
+        key: "milestones",
+        name: "Void Milestones",
+        symbol: "∅",
+        component: "VoidMilestonesTab",
+        id: 1,
+        hidable: true
+      }
+    ]
   }
 ];
