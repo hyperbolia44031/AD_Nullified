@@ -136,6 +136,10 @@ export default {
   background-color: var(--color-celestials);
 }
 
+.o-tab-btn--nullify::before {
+  background-color: var(--color-nullify);
+}
+
 .o-subtab-btn--active {
   border-bottom-width: 0.5rem;
 }

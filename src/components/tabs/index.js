@@ -22,6 +22,7 @@ import LaitelaTab from "./celestial-laitela/LaitelaTab";
 import MultiplierBreakdownTab from "./statistics/MultiplierBreakdownTab";
 import NormalAchievementsTab from "./normal-achievements/NormalAchievementsTab";
 import NormalChallengesTab from "./normal-challenges/NormalChallengesTab";
+import NullifyUpgradesTab from "./nullified-upgrades/NullifyUpgradesTab";
 import OptionsGameplayTab from "./options-gameplay/OptionsGameplayTab";
 import OptionsSavingTab from "./options-saving/OptionsSavingTab";
 import OptionsVisualTab from "./options-visual/OptionsVisualTab";
@@ -40,6 +41,7 @@ import TeresaTab from "./celestial-teresa/TeresaTab";
 import TimeDilationTab from "./time-dilation/TimeDilationTab";
 import TimeDimensionsTab from "./time-dimensions/TimeDimensionsTab";
 import TimeStudiesTab from "./time-studies/TimeStudiesTab";
+import VoidMilestoneTab from "./void-milestones/VoidMilestoneTab";
 import VTab from "./celestial-v/VTab";
 
 const TabComponents = {
@@ -84,7 +86,9 @@ const TabComponents = {
   AlchemyTab,
   CelestialNavigationTab,
   ShopTab,
-  MultiplierBreakdownTab
+  MultiplierBreakdownTab,
+  NullifyUpgradesTab,
+  VoidMilestoneTab
 };
 
 export default TabComponents;

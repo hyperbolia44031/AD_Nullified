@@ -82,6 +82,7 @@ html {
   --color-reality-light: #d5ffd7;
   --color-reality-dark: #0a790c;
   --color-celestials: #5151ec;
+  --color-nullify: #35373b;
   --color-prestige--accent: white;
 
   --color-teresa--base: #5151ec;
@@ -752,6 +753,16 @@ button:focus {
 
 .o-tab-btn--celestial:hover {
   background: var(--color-celestials);
+}
+
+.o-tab-btn--nullify {
+  color: var(--color-nullify);
+  background-color: var(--color-prestige--accent);
+  border-color: var(--color-nullify);
+}
+
+.o-tab-btn--nullify:hover {
+  background: var(--color-nullify);
 }
 
 /* #endregion tab buttons */
